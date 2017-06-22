@@ -1,0 +1,14 @@
+Git Commands
+
+#Git log
+	para ver todos los commits que se hicieron en el proyecto
+
+#Git diff xxx xxx
+	para comparar dos commits y los cambios que realizaron
+	el segundo argumento siempre tiene que ser NUEVO
+#Git checkout xxx
+	ir a un commit anterior 
+#Git init
+	inicializa un version-control en git
+#git status
+	Muestra los cambios que se hicieron despues del ultimo commit

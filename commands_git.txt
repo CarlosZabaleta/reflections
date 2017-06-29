@@ -6,9 +6,42 @@ Git Commands
 #Git diff xxx xxx
 	para comparar dos commits y los cambios que realizaron
 	el segundo argumento siempre tiene que ser NUEVO
+
+#git diff
+	compara working area and staging area
+
+#git diff --staged
+	compara staging area and el ultimo commit en repository
+
 #Git checkout xxx
 	ir a un commit anterior 
+
 #Git init
 	inicializa un version-control en git
+
 #git status
 	Muestra los cambios que se hicieron despues del ultimo commit
+
+#git reset --hard
+	elimina todo lo avanzado en working area y staging area
+
+#git branch
+	para conocer los branches que hay
+
+#git merge branch1 branch2
+	unir branches
+
+#git branch -d branch-name
+	eliminar un branch
+
+#git add file
+	envia el archivo a staging area
+
+#git add .
+	envia todos los archivos a staging area
+
+#git log --graph --oneline
+	muestra en forma de grafo los commits realizados
+
+#git show #commit
+	muestra los cambios realizados del commit con su padre
